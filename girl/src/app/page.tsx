@@ -34,7 +34,7 @@ const Home: React.FC = () => {
    };
    //
    return (
-      <div className="bg-[#a89ea9] text-white w-[100dvw] h-[100dvh] flex items-center justify-center">
+      <div className="bg-[#a89ea9] text-white w-full h-[100dvh] flex items-center justify-center">
          <Head>
             <title>Go Out With Me?</title>
             <link rel="icon" href="/favicon.ico" />
