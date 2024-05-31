@@ -63,7 +63,7 @@ const Home: React.FC = () => {
                   </div>
                </>
             )}
-            <div className="flex gap-6 mt-4 text-sm">
+            <div className="flex gap-6 mt-4 text-sm flex-col md:flex-row">
                {check ? (
                   <>
                      <div
