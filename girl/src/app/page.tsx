@@ -34,7 +34,7 @@ const Home: React.FC = () => {
    };
    //
    return (
-      <div className="bg-[#a89ea9] text-white w-full h-[100dvh] flex items-center justify-center">
+      <div className="bg-[#a89ea9] text-white w-full h-[100dvh] flex items-center justify-center px-10">
          <Head>
             <title>Go Out With Me?</title>
             <link rel="icon" href="/favicon.ico" />
@@ -63,7 +63,7 @@ const Home: React.FC = () => {
                   </div>
                </>
             )}
-            <div className="flex gap-6 mt-4">
+            <div className="flex gap-6 mt-4 text-sm">
                {check ? (
                   <>
                      <div
